@@ -226,3 +226,26 @@
         font-size: 17px;
     }
 }
+
+@media screen and (max-width:415px){
+    .container{
+        width:70vw;
+    }
+}
+
+@media screen and (max-width:360px){
+    .container{
+        width:70vw;
+    }
+    .link{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width:80%;
+    }
+}
+
+@media screen and (max-width:320px){
+    .paragraph{
+        padding-top: 50px;
+    }
+}
