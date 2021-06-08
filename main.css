@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    height:50%;
+    display: flex;
+}
+
+.sedans{
+    background-color: hsl(31,77%,52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding:5%;
+    position: relative;
+}
+
+
+.SUV{
+    background-color: hsl(184,100%,22%);
+    display:flex;
+    flex-direction: column;
+    padding:5%;
+    position:relative;
+}
+
+.luxury{
+    background-color: hsl(179,100%,13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding:5%;
+    position:relative;
+}
+
+
+.logo{
+    flex-grow: 1;
+    
+}
+.title{
+    flex-grow: 1;
+    text-transform: uppercase;
+    color:white;
+    position:relative;
+}
+.title h2{
+    position:absolute;
+    left:10%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:50px;
+    font-weight: 700;
+}
+.paragraph{
+    flex-grow: 2;
+    text-align: center;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-weight: 700;
+}
+.link{
+    align-items: flex-end;
+    background-color: white;
+    border-radius: 100px;
+    padding-left:15px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family: 'Lexend Deca';
+    letter-spacing: 0.5px;
+}
+
+.sedans .link{
+    width:45%;
+    position:absolute;
+    left:15%;
+    bottom:10%;
+}
+.SUV .link{
+    width:45%;
+    position:absolute;
+    left:15%;
+    bottom:10%;
+}
+.luxury .link{
+    width:45%;
+    position:absolute;
+    left:15%;
+    bottom:10%;
+}
+.link a {
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+.sedans .link a{
+    color:hsl(31,77%,52%);
+}
+
+.SUV .link a{
+    color:hsl(184, 100%, 22%);
+}
+.luxury .link a{
+    color:hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width:1350px){
+    .link{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .link a{
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:1237px){
+    .link a{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1146px){
+    .link a{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:1056px){
+    .link a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:1046px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    .card{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container{
+        width:45%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sedans{
+        height:100vh;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+    .SUV{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+    }
+    .SUV{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .luxury{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 15px;
+    }
+    .logo{
+        padding-bottom: 30px;;   
+    }
+    .title{
+        padding:30px;
+    }
+    .paragraph{
+        font-size: 20px;
+        padding-bottom:100px;
+        padding-top: 100px;
+        margin-bottom: 100px;
+        width:80%;
+        align-self: center;
+    }
+    .link{
+        text-align: center;
+        padding:20px;
+    }
+    .link a{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:615px){
+    *{
+        margin:0;
+        padding: 0;
+    }
+    .link{
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    .link a{
+        font-size: 17px;
+    }
+}
